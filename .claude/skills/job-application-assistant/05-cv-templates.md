@@ -115,12 +115,37 @@ When the role sits outside your home domain, **lead with the domain-transfer arg
 
 **Create 2-3 profile statement templates for your main role types:**
 
-<!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+These are grounded in `01-candidate-profile.md`. Adapt the specifics per posting, but never add a
+claim the profile does not support.
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For AI / LLM engineering roles:**
+> Senior engineer with 10+ years shipping production web platforms, now specializing in AI product
+> engineering. Built LLM pipelines end to end: a 4-tier receipt classification system (rules, ML,
+> LLM, ensemble) that cut AI costs 60-70% with tiered OCR fallback and confidence-based human
+> escalation, and a B2B presentation platform with fabrication-proof guardrails and automated evals.
+> Works across LangChain, LangGraph, and the OpenAI and Claude APIs, and builds with Claude Code
+> daily. Comfortable owning an AI product from pipeline design through cost and reliability
+> engineering to the interface users actually touch.
+
+**For senior / staff full-stack roles:**
+> Senior full-stack engineer, 10+ years, React/Next.js/TypeScript on the front and Node.js/Nest.js
+> on the back, with production systems in fintech, legaltech, esports, and SaaS. Has repeatedly been
+> the engineer who takes a product from nothing to production: a government registration portal
+> automated by reverse-engineering a 20+ step wizard with no public API, a legal operations platform
+> with electronic signatures and an 11-stage workflow, and a SaaS website factory live in roughly 40
+> days. Increasingly focused on AI-powered products and the engineering discipline they require.
+
+**For founding-engineer / early-stage roles:**
+> Founding engineer with 10+ years of production experience and a track record of owning entire
+> product lifecycles alone. At Bono Fintech, built the government-integration automation, the legal
+> operations platform, and the marketing and lead-generation ecosystem. Independently shipped two AI
+> products and co-founded a SaaS platform that reached production in roughly 40 days. Comfortable
+> with undocumented systems, tight deadlines, and deciding what to build as well as how to build it.
+
+**Note on education:** Adrian began a Computer Science BSc (University of Transilvania, 2015-2017)
+but did not complete it. Profile statements lead with shipped work and years of experience, never
+with credentials. The education section must state the degree was not completed - see
+`01-candidate-profile.md`.
 
 Statements labeled *[Used for: <company>_<role>]* were extracted from archived application drafts by `/setup` Path A. They are **phrasing references, never fact sources**: when drafting from one, every factual claim still comes from `01-candidate-profile.md` - a past tailored draft does not vouch for its own accuracy.
 

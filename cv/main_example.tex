@@ -1,10 +1,13 @@
-%% Example CV - [YOUR_NAME]
+%% Master CV - Adrian Rusan
 %% Comprehensive overview of all competencies, experience, and achievements.
 %% Use as a master reference when tailoring role-specific CVs.
 %%
-%% SETUP: Run /setup to populate this with your actual information.
 %% Compile with: lualatex main_example.tex
 %% (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors.)
+%%
+%% NOTE ON EDUCATION: the Computer Science studies (2015-2017) were NOT completed.
+%% Every derived CV must keep the "not completed" wording. Do not shorten it away
+%% to save a line; cut elsewhere.
 
 \documentclass[11pt,a4paper,sans]{moderncv}
 \moderncvstyle{banking}
@@ -24,18 +27,19 @@
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Adrian Rusan - CV},
     pdfpagemode=FullScreen,
 }
 \usepackage[scale=0.80]{geometry}
 \usepackage{import}
+\usepackage{needspace}
 
 % personal data
-\name{[First]}{[Last]}
-\address{[Your Address, City, Country]}{}{}
-\phone[mobile]{[+XX XXXXXXXXXX]}
-\email{[your.email@example.com]}
-\extrainfo{\href{[https://linkedin.com/in/your-profile]}{LinkedIn}, \href{[https://github.com/your-username]}{GitHub}}
+\name{Adrian}{Rusan}
+\address{Bra\c{s}ov, Romania}{}{}
+\phone[mobile]{+40 762 756 850}
+\email{rusan.adrian.ionut@gmail.com}
+\extrainfo{\href{https://linkedin.com/in/adrian-rusan}{LinkedIn}, \href{https://github.com/adrianrusan}{GitHub}, \href{https://adrian-rusan.com}{adrian-rusan.com}}
 
 \begin{document}
 
@@ -46,7 +50,12 @@
 % ============================================================
 
 \vspace{6pt}
-\small{[Write a 3-5 line profile statement tailored to the role you're applying for. Focus on what makes you uniquely qualified. Example: "Data scientist with a PhD in [field] and X years of industry experience. Combines deep domain expertise in [domain] with strong applied machine learning and Python development skills. Experienced in developing end-to-end ML pipelines, from data ingestion to stakeholder-facing dashboards."]}
+\small{Senior software engineer with 10+ years shipping production web platforms used by millions,
+now specializing in AI product engineering. Builds LLM pipelines end to end, from cost-optimized
+model routing and automated evals to the interfaces users actually touch, alongside full-stack
+platforms integrating government APIs, payment systems, and legal workflows. Has repeatedly owned
+entire product lifecycles solo as a founding or first engineer, across fintech, legaltech, esports,
+and SaaS.}
 
 % ============================================================
 %     CORE COMPETENCIES
@@ -56,15 +65,24 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item \textbf{[Skill Category 1]}: [Specific skills, frameworks, tools. Be concrete.]
+\item \textbf{AI \& LLM Engineering}: LangChain, LangGraph, OpenAI API, Claude API. RAG, automated
+evals, fabrication guardrails, cost-optimized model routing, confidence-based human escalation.
+Agentic coding with \textbf{Claude Code}.
 
-\item \textbf{[Skill Category 2]}: [Specific skills, frameworks, tools.]
+\item \textbf{Frontend}: React, Next.js, TypeScript, Tailwind CSS, shadcn/ui, Vite. Production
+platforms serving millions of users.
 
-\item \textbf{[Skill Category 3]}: [Specific skills, frameworks, tools.]
+\item \textbf{Backend \& APIs}: Node.js, Nest.js, Python, FastAPI. REST and GraphQL, webhook
+architectures, third-party and government API integration, Stripe billing.
 
-\item \textbf{[Skill Category 4]}: [Domain expertise, methods, approaches.]
+\item \textbf{Data}: PostgreSQL, Prisma, Supabase, MongoDB, MySQL, Redis. Data parsing pipelines
+and analytics dashboards.
 
-\item \textbf{[Skill Category 5]}: [Tools, platforms, software.]
+\item \textbf{DevOps \& Quality}: Docker, GitHub Actions, Vercel, Railway, Git. Playwright E2E
+testing and CI adoption.
+
+\item \textbf{Product Ownership}: end-to-end delivery as founding or sole engineer, from
+requirements through production, under tight deadlines.
 
 \end{itemize}
 
@@ -76,32 +94,55 @@
 \vspace{3pt}
 \begin{itemize}
 
-% --- Most Recent Role ---
-\item{\cventry{[YYYY-Present]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+% --- Bono Fintech ---
+\needspace{5\baselineskip}
+\item{\cventry{2024-Present}{Founding Engineer}{Bono Fintech SRL}{Remote}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1 - be specific, use numbers where possible]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
-    \item [Achievement or responsibility 4]
+    \item Automated an entire government registration portal by reverse-engineering a 20+ step wizard with no public API; scaled to 4 autonomous services with multi-tenant parallel processing.
+    \item Shipped a legal operations platform for law firms: electronic signatures via a custom desktop-to-web bridge, an 11-stage workflow, and role-based access control across 3 frontend apps.
+    \item Built the CMS-driven marketing ecosystem: lead generation pipeline, SEO infrastructure, interactive tax calculator, and CAEN codes directory driving organic traffic.
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Previous Role ---
-\item{\cventry{[YYYY-YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+% --- Freelance / PFA ---
+\needspace{5\baselineskip}
+\item{\cventry{2022-Present}{Freelance Full-Stack Engineer}{Rusan Adrian-Ionu\c{t} PFA}{Remote}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
+    \item Solo-built an AI receipt classification platform: 4-tier pipeline (rules, ML, LLM, ensemble) cutting AI costs 60-70\%, with tiered OCR fallback, RAG via LangGraph, and confidence-based human escalation.
+    \item Engineered a B2B AI presentation platform: LLM pipeline with fabrication-proof guardrails, automated evals, and cross-engine export, eliminating 30-60 minutes of manual fix-up per document.
+    \item Co-founded a SaaS website factory, zero to production in roughly 40 days: Stripe billing, government API integration, and webhook architecture across 9 external services.
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Earlier Role ---
-\item{\cventry{[YYYY-YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+% --- GoSocial ---
+\needspace{5\baselineskip}
+\item{\cventry{2022-2024}{Full-Stack Engineer}{GoSocial Development SRL}{Remote}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
+    \item Engineered advanced data parsers for multiple sources, reducing processing time by 70\%.
+    \item Built a Next.js and Nest.js analytics dashboard eliminating 10 hours per week of manual reporting.
+    \item Introduced Playwright E2E tests and GitHub Actions CI, driving a 30\% drop in regression defects.
+\end{itemize}}}
+
+\vspace{3pt}
+
+% --- PGL Esports ---
+\needspace{5\baselineskip}
+\item{\cventry{2020-2022}{Full-Stack Engineer}{PGL Esports SRL}{Romania}{}{\vspace{1pt}
+\begin{itemize}
+    \item Engineered real-time overlay graphics for CS:GO Major streams reaching 2M+ concurrent viewers, with a 20\% lift in watch-time.
+    \item Built game telemetry pipelines for CS:GO, Apex Legends, and Dota 2 broadcasts.
+\end{itemize}}}
+
+\vspace{3pt}
+
+% --- Ipsos ---
+\needspace{5\baselineskip}
+\item{\cventry{2016-2020}{Frontend Developer}{Ipsos Interactive Services SRL}{Bra\c{s}ov, Romania}{}{\vspace{1pt}
+\begin{itemize}
+    \item Delivered 300+ survey projects for Google, Coca-Cola, and P\&G at 99.5\% data accuracy.
+    \item Mentored three junior developers in modern JavaScript and Git best practices.
 \end{itemize}}}
 
 \end{itemize}
@@ -114,14 +155,14 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item{\cventry{[YYYY-YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-Thesis: ``[Thesis Title].'' [Brief description of research focus.]
+\item{\cventry{2015-2017}{Computer Science studies (not completed)}{University of Transilvania}{Bra\c{s}ov, Romania}{}{\vspace{1pt}
+Left before graduating to work full time as a developer; no degree awarded.
 }}
 
 \vspace{3pt}
 
-\item{\cventry{[YYYY-YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-[Brief description or key topics.]
+\item{\cventry{2019}{CS50: Introduction to Computer Science}{Harvard University (online)}{}{}{\vspace{1pt}
+Algorithms and data structures, C, Python, SQL, web development.
 }}
 
 \end{itemize}
@@ -133,27 +174,7 @@ Thesis: ``[Thesis Title].'' [Brief description of research focus.]
 \section{Languages}
 \vspace{1pt}
 \begin{itemize}
-\item [Language 1] (native), [Language 2] (fluent), [Language 3] (intermediate).
-\end{itemize}
-
-% ============================================================
-%     PUBLICATIONS (optional)
-% ============================================================
-
-\section{Publications}
-\vspace{1pt}
-\begin{itemize}
-\item [Author(s)] ([Year]). [Title]. [Journal/Conference]. \href{[DOI_URL]}{DOI link}
-\end{itemize}
-
-% ============================================================
-%     HONORS AND AWARDS (optional)
-% ============================================================
-
-\section{Honors and Awards}
-\vspace{1pt}
-\begin{itemize}
-\item{\textbf{[Award Name]} -- [Event/Organization] ([Year]).}
+\item Romanian (fluent), English (fluent).
 \end{itemize}
 
 % ============================================================
