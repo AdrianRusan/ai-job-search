@@ -60,9 +60,11 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** React, Next.js, TypeScript, Node.js, Nest.js; LLM pipeline engineering (LangChain, LangGraph, OpenAI API, Claude API, RAG, automated evals, cost-optimized model routing); PostgreSQL/Prisma; full-stack product delivery end to end; third-party and government API integration; Stripe/payments; agentic coding with Claude Code.
+
+**Moderate match areas:** Python, FastAPI, GraphQL, Docker, MongoDB, MySQL, Redis, Supabase, CI/CD (GitHub Actions), Playwright E2E testing, N8N automation, OCR (Google Cloud Vision), Vercel/Railway deployment.
+
+**Weak match areas:** Kubernetes and large-scale cloud infrastructure (AWS/GCP/Azure at platform depth); Go, Rust, Java, C#, PHP, Ruby; mobile (iOS/Android/React Native); training ML models from scratch (as opposed to orchestrating LLMs); classical data engineering (Spark, Airflow, dbt, warehousing); embedded/systems programming; formal security or compliance engineering.
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for?
@@ -74,9 +76,11 @@ Does work history align with what they're looking for?
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** Senior/staff full-stack engineering on production web platforms (10+ years); founding-engineer and first-engineer roles; AI/LLM product engineering; fintech and government-integration products; legaltech workflows; SaaS from zero to production; freelance/contract delivery to external clients.
+
+**Moderate:** Esports and live-broadcast systems; market research tooling; technical leadership and mentoring; data parsing and analytics dashboards; developer-experience and CI/CD improvement work.
+
+**Entry-level / would need to make the case:** Formal engineering management (headcount, performance reviews, hiring); platform/SRE and infrastructure-first roles; ML research or model-training roles; data engineering roles; roles requiring a completed degree as a hard credential; large-enterprise process-heavy environments (all recent work is solo or first-engineer).
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -91,10 +95,35 @@ Does the role and company culture match the behavioral profile?
 **Red flags to research:** Department disorganization, work dominated by maintenance over development, poor chemistry with leadership, culture mismatches. Check reviews, media coverage, LinkedIn connections, and network contacts for insider perspective.
 
 ### 4. Location & Logistics (Pass/Fail + Notes)
-- Within commute range: PASS
-- Remote with occasional office: PASS
-- Requires relocation: FAIL (deal-breaker)
-- Frequent international travel: FLAG (discuss with user)
+
+Adrian works **fully remote from Brașov, Romania**, for EU or US clients. There is no commute tier
+here: the question is only whether the role can be done entirely from Romania.
+
+- Fully remote, EU or US employer/client, no office requirement: **PASS**
+- Fully remote, worldwide / "work from anywhere": **PASS**
+- Remote but restricted to a country or region that excludes Romania (e.g. "US-based only",
+  "must reside in Germany", "EU work authorization in-country required"): **FAIL** - quote the
+  restriction back to the user
+- Hybrid, or any stated on-site days: **FAIL** (deal-breaker)
+- Requires relocation: **FAIL** (deal-breaker)
+- Remote with occasional travel for team offsites (a few times per year): **PASS**, note it
+- Frequent international travel as a job duty: **FLAG** (discuss with user)
+- Timezone overlap requirement: **PASS** if the required overlap is workable from EET (UTC+2/+3);
+  **FLAG** if it demands sustained US Pacific hours or similar. Romania is EET, so most EU roles
+  overlap cleanly and US East Coast roles are workable in the afternoon/evening.
+
+### 4b. Rate / Compensation Floor (Pass/Fail)
+
+**Hard floor: EUR 35/hour.** Anything below is a FAIL, not a negotiation.
+
+- Posting states a rate or salary clearly at or above the floor: **PASS**
+- Posting states a rate or salary clearly below the floor: **FAIL** - do not draft
+- Posting gives no compensation information: **PROCEED, but flag as unverified.** Raise the rate
+  early in the process rather than after investing in interviews.
+- Salaried role rather than contract: convert to a comparable hourly figure before judging
+  (roughly 1,700-1,800 billable hours/year is a reasonable divisor for a full-time equivalent),
+  and account for the fact that Adrian invoices through his own PFA, so employer-side costs and
+  benefits are not part of the number.
 
 ### 5. Career Alignment & Motivation (0-100)
 Does this role advance career goals and contain tasks that energize?
@@ -107,19 +136,32 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Senior or staff-level engineering roles where AI/LLM work is central to the product, not a
+  side experiment.
+- Continue owning systems end to end: founding-engineer, first-engineer, or staff-level scope
+  over narrow component ownership.
+- Deepen LLM product engineering (pipelines, evals, guardrails, cost engineering, agentic systems)
+  as the primary specialization rather than a secondary skill.
+- Fully remote work for EU/US clients at or above the EUR 35/hour floor.
 
-**Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
-- Non-task factors: leadership style, department culture, company values, degree of autonomy
+**Motivation filter:** Evaluate not just whether he *can* do the tasks, but whether they will
+*energize* him.
+- **Tasks that energize:** building AI/LLM pipelines end to end; greenfield and 0-to-1 product work;
+  reverse-engineering undocumented systems and integrations; cost and reliability engineering on AI
+  systems; shipping fast with real users on the other end; technical leadership and mentoring.
+- **Tasks that drain:** maintenance-dominated work on legacy systems; narrow slice ownership inside
+  a large process-heavy org; approval chains for routine technical decisions; roles where AI is
+  decorative rather than load-bearing; presence/hours-based management.
+- **Non-task factors:** degree of autonomy, directness of communication, distance between decision
+  and production, whether the company genuinely operates async.
 
-**Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+**Life situation alignment:**
+- **Security:** freelancing through his own PFA with two concurrent clients. Not desperate for a
+  role, which means marginal-fit postings should be scored honestly rather than generously.
+- **Flexibility:** fully remote from Romania (EET). Contract/freelance structure preferred;
+  full-time employment considered only if remote-from-Romania and above the rate floor.
+- **Professional development:** wants depth in AI/LLM engineering and staff-level technical scope.
+  Score a role higher when it puts him closer to the hard parts of an AI product.
 
 ### 6. Salary Benchmark (Optional)
 

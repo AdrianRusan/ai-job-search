@@ -1,10 +1,7 @@
-# Job Application Assistant for [YOUR_NAME]
-
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
+# Job Application Assistant for Adrian Rusan
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Adrian Rusan, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -13,79 +10,92 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ## Candidate Profile
 
-<!-- This section is auto-populated by /setup. You can also fill it in manually. -->
-
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
+- **Name:** Adrian Rusan
+- **Location:** Brașov, Romania (fully remote only, EU or US clients, working from Romania. No relocation, no hybrid, no on-site.)
+- **Contact:** +40 762 756 850 | rusan.adrian.ionut@gmail.com
+- **Online:** [LinkedIn](https://linkedin.com/in/adrian-rusan) | [GitHub](https://github.com/adrianrusan) | [adrian-rusan.com](https://adrian-rusan.com)
 - **Languages:**
   | Language | Level |
   |----------|-------|
-  | [LANGUAGE] | [LEVEL] |
-  <!-- Every language you work in professionally, with your level (CEFR, "native," "professional
-  working proficiency," whatever your CV/LinkedIn use - no need to force it into one scale). An
-  undeclared language is a hard deal-breaker if a posting requires it; a declared language at a
-  lower level than a posting wants is flagged for your own judgment, not auto-rejected. See
-  04-job-evaluation.md's Language Gate. -->
-- **CV language:** [YOUR_CV_LANGUAGE] <!-- English unless your market expects otherwise; /setup asks -->
+  | Romanian | Fluent |
+  | English | Fluent |
+- **CV language:** English
 
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Status:** Freelancing full-time through his own PFA (Rusan Adrian-Ionuț PFA), currently engaged with two clients concurrently (Bono Fintech SRL and one other). Open to new senior/staff engagements.
+- **Rate floor:** EUR 35/hour. Hard constraint.
+- **LinkedIn headline:** "Senior Software Engineer"
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **Computer Science, BSc - started, NOT completed** (2015-2017) - University of Transilvania, Brașov
+  - Left before graduating. No degree awarded. **Never present this as a completed degree** in any CV, cover letter, or application; always state explicitly that it was not completed.
+- **CS50: Introduction to Computer Science** (2019) - Harvard University (online)
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Founding Engineer** (2024 - Present) - **Bono Fintech SRL** (remote, freelance via PFA)
+  - Automated an entire government registration portal: reverse-engineered a 20+ step wizard with no public API, scaled to 4 autonomous services with multi-tenant parallel processing
+  - Shipped a legal operations platform for law firms: electronic signatures via custom desktop-to-web bridge, 11-stage workflow, role-based access across 3 frontend apps
+  - Built the CMS-driven marketing ecosystem: lead gen pipeline, SEO infrastructure, interactive tax calculator, CAEN codes directory
+- **Freelance Full-Stack Engineer** (2022 - Present) - **Rusan Adrian-Ionuț PFA** (remote, own company)
+  - Solo-built an AI receipt classification platform: 4-tier pipeline (rules → ML → LLM → ensemble) cutting AI costs 60-70%, tiered OCR with fallback, RAG via LangGraph, confidence-based human escalation
+  - Engineered a B2B AI presentation platform: LLM pipeline with fabrication-proof guardrails, automated evals, cross-engine export eliminating 30-60 min of manual fix-up per document
+  - Co-founded a SaaS website factory: zero to production in ~40 days, Stripe billing, government API integration, webhook architecture across 9 external services
+- **Full-Stack Engineer** (2022 - 2024) - **GoSocial Development SRL** (remote)
+  - Advanced data parsers for multiple sources, reducing processing time by 70%
+  - Next.js + Nest.js analytics dashboard eliminating 10 h/week of manual reporting
+  - Introduced Playwright E2E tests and GitHub Actions CI, driving a 30% drop in regression defects
+- **Full-Stack Engineer** (2020 - 2022) - **PGL Esports SRL** (Romania)
+  - Real-time overlay graphics for CS:GO Major streams: 2M+ concurrent viewers, 20% lift in watch-time
+  - Game telemetry pipelines for CS:GO, Apex Legends, and Dota 2 broadcasts
+- **Frontend Developer** (2016 - 2020) - **Ipsos Interactive Services SRL** (Brașov, Romania)
+  - Delivered 300+ survey projects for Google, Coca-Cola, and P&G at 99.5% data accuracy
+  - Mentored three junior developers in modern JavaScript and Git best practices
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** React, Next.js, TypeScript, Node.js, Nest.js, LLM pipeline engineering (LangChain, LangGraph, OpenAI API, Claude API, RAG, automated evals, cost-optimized routing), PostgreSQL, Prisma
+- **Secondary:** Python, FastAPI, GraphQL, Docker, MongoDB, MySQL, Redis, Supabase, Tailwind, shadcn/ui, Vite, N8N, Google Cloud Vision, Playwright, GitHub Actions
+- **Domain:** Fintech and government API integration, legaltech workflows, AI product engineering, esports/live broadcast, SaaS delivery, market research tooling
+- **Software:** Git, Docker, Vercel, Railway, GitHub Actions, **Claude Code** (agentic coding, used daily)
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+- **CS50: Introduction to Computer Science** - Harvard University (online) - completed 2019
 
 ### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+None.
 
 ### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+None recorded.
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+<!-- Inferred from the CV only. No formal assessment, LinkedIn About, or reference letters on file.
+     Add those to documents/ and re-run /setup to improve this. -->
+- **End-to-end ownership** - repeatedly the sole or first engineer on a product, from nothing to production
+- **Reverse-engineering under ambiguity** - comfortable with undocumented systems and absent APIs
+- **Cost-conscious engineering** - optimizes for what the business actually pays (60-70% AI cost cuts)
+- **Strengths:** autonomy, speed to production, AI/LLM systems, integration-heavy work, mentoring
+- **Growth areas:** large-team and process-heavy environments; deep cloud/K8s infrastructure; no completed degree
+- **Thrives in:** fully remote, async, high-autonomy, greenfield or first-engineer scope, short path from decision to production
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Building AI/LLM products end to end, where the AI is load-bearing rather than decorative
+- Greenfield and 0-to-1 work with real users on the other side
+- Reverse-engineering and integrating undocumented or hostile systems
+- Cost and reliability engineering on AI pipelines
+- Technical leadership and mentoring at staff level
 
 ### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- AI/LLM product companies: startups and scale-ups where the model pipeline is the product
+- Fintech: payments, billing, government/regulatory integration
+- Legaltech: workflow automation, document processing, e-signatures
+- Developer tools and SaaS platforms
 
 ### Deal-breakers
-<!-- Hard constraints on job search. Language requirements are handled separately and
-automatically from your Languages table above - don't duplicate them here. -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- Anything below **EUR 35/hour** (or the salaried equivalent)
+- Hybrid or on-site requirements of any kind; any role requiring relocation
+- Remote roles geographically restricted in a way that excludes Romania
+- Roles requiring a completed degree as a hard, non-negotiable credential
+- Maintenance-dominated work on legacy systems with no new development
+- Micromanagement, presence/hours-based evaluation, approval chains for routine technical decisions
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)
